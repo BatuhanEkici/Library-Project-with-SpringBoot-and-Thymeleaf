@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:h2:./library_database
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+      format-sql: true
+      
